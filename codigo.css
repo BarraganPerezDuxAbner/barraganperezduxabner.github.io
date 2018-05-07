@@ -1,0 +1,85 @@
+.tituloprincipal{
+    color:#CECFCE;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+    color: rgb(66, 12, 12);
+  
+  }
+  .menucuentos {
+    float: left;
+    width: 20%;
+    
+  }
+  
+  .menucuentos ul {
+    list-style-type: none;
+    padding-left: 6px;
+  }
+  .menucuentos ul li {
+    padding-left: 10px;
+    margin-top: 10px;
+    border-left: 5px solid rgb(68, 5, 60);
+  }
+  .cuentosprincipal {
+    float: right;
+    width: 70%;
+    margin: 40px;
+    background-color:rgb(30, 102, 72)  ;
+  }
+  body{
+    background-color: rgb(29, 182, 156);
+    margin: 30px 30px;
+  }
+   .imagenespoe{
+    margin: auto;
+   }
+    .imgpoe{
+      border: 20px;
+      height: 250px;
+      width: 250px;
+      border: 5;
+    }
+  
+    .menu{
+      color: white;
+    }
+  
+  
+  
+  .imgbonbon{
+    height: 150px;
+    width: 135px;
+    margin: 5px 10px 15px 20px;
+    float: left;
+    align-content:left;
+  }
+  
+  .parrafo{
+    margin: 20px;
+  }
+  
+  .imagen{
+    height: 150px;
+    width: 135px;
+    margin: 5px 10px 15px 20px;
+    float: left;
+    align-content:left;
+  }
+  
+  .parrafoint{
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  
+  .parrafoint1{
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  
+  
+  .parrafocuento{
+    font-style: italic;
+  }
