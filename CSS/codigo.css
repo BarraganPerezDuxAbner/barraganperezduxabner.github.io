@@ -1,0 +1,227 @@
+/*pagia principal allan poe*/
+#cuerpoP{
+  background-image: url(/vela-ardiente-sobre-fondos-oscuros-grabados-en-relieve-vintage-49096976.jpg);
+  background-size: cover;  
+  margin: 30px 30px;
+}
+p{
+  margin: 20px 50px;
+}
+#tituloprincipal{
+    color:#CECFCE;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(66, 12, 12);  
+}
+a{
+  color: rgb(10, 92, 245);
+}
+.menucuentos {
+    float: left;
+    width: 23%;    
+}
+.menucuentos li{
+  list-style-type: none;
+  padding-left: 6px;
+  margin-top: 5px;
+  border-left: 5px solid rgb(29, 182, 156); 
+}
+.cuentosprincipal {
+    float: right;
+    width: 70%;
+    margin: 40px;
+    background-color:rgb(30, 102, 72);
+    border-radius: 70px;
+}
+.imagenespoe{
+    margin: auto;
+}
+.imgpoe{
+      border: 20px;
+      height: 200px;
+      width: 200px;
+      border: 15px;
+}
+/*#disqus_thread{
+  background-color: orangered;
+  /*ackground-image: url(/180.jpg);
+  background-size: cover; 
+}*/ 
+ 
+/*pagina secundaria corazon*/
+
+#cuerpoC{
+  background-image: url(/180.jpg);
+  background-size: cover;  
+  margin: 30px 30px;
+}
+#imagenCorazon{
+  text-align: center;
+}
+
+#tituloCorazon, #resenaC{
+  color: rgb(78, 170, 231);
+}
+#texto{
+  color:black;
+  background-color:  rgb(226, 162, 109);
+  border-radius: 15px;
+  
+  float: center;
+  width: 90%;
+  margin: 40px;
+ 
+}
+#letraC{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imagenC{
+  margin: auto;
+
+}
+
+/*pagina secundaria Maelstrom*/
+#cuerpoM{
+  background-color: rgb(226, 162, 109);
+}
+/*background-image: url(/32267010_1576204695821535_7624913980993044480_n.jpg);
+ background-size: cover;  
+  margin: 30px 30px;
+}
+#imagenMa{
+  text-align: center;
+*/
+#imagenMa{
+  text-align: center;
+}
+#tituloMa{
+  background-color: powderblue;
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px 10px 10px 10px;
+}
+#parrafo{
+  background-color: seagreen;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+}
+
+
+
+/*pagina secundaria MascaraRoja*/
+
+#cuerpoMas{
+  background-color: rgb(226, 162, 109);
+  margin: 30px 30px;
+} 
+#imagenMas{
+  text-align: center;
+}
+#tituloMas{
+  background-color: rgb(54, 214, 107);
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px 10px 10px 10px;
+}
+#parrafoMas{
+  background-color: rgb(46, 125, 139);
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+}
+
+/*pagina secundaria Retrato ova;*/
+
+#cuerpoR{
+  background-color: rgb(109, 140, 226);
+  margin: 30px 30px;
+} 
+#imagenR{
+  text-align: center;
+}
+#tituloRe{
+  color: red;
+  background-color: rgb(204, 177, 56);
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+}
+#parrafoRe{
+  background-color: rgb(46, 125, 139);
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+
+}
+#letraRe{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+
+/*pagina secundaria tonel del amontillado;*/
+
+#cuerpoT{
+  background-color: rgb(194, 197, 33);
+  margin: 30px 30px;
+}
+#tituloT{
+  color: rgba(248, 53, 18, 0.808);
+  background-color: rgb(123, 204, 56);
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+  border: dashed; 
+}
+#imagenT{
+  text-align: center;
+}
+#parrafoT{
+  background-color: rgb(218, 81, 81);
+  border-radius: 15px;
+  margin: 30px;
+  padding: 8px 8px 8px 8px;
+}
+#letraT{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-------------------------------------------------
+pagina secundaria glosario*/
+
+#tituloGRetrato2, #tituloGCorazon2, #tituloGMaelstrom2, #tituloGAmontillado2, #tituloGMascara2{
+  color: rgb(153, 184, 12);   
+}
+dt{ 
+    color: rgb(109, 6, 243);   
+}
+dd{
+  color: rgb(12, 12, 12);
+}
+
+#tituloGlosario2{
+  background-color: thistle;
+
+  border-radius: 30px;
+  border:rgb(76, 207, 87);
+  border-style: solid;
+  border-width:5px;
+  width: 250px;
+  height: 45px;
+  text-align: center;
+  align-items: center;
+}
+#cuerpoG2{
+  background-color: chocolate;
+  background-size: cover;    
+}
+

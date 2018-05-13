@@ -2,22 +2,36 @@
  <html>
    <head>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <style>
-       body {background: powderblue;}
-       h1   {color: red;}
-       </style>
+     <title>Cuentos de Edgar Allan Poe</title>
+     <link rel="stylesheet" href="/CSS/codigo.css"/> 
    </head>
-   <body>
+   <body id="cuerpoC">
     
-      <div class="pestana principal">
-        <h1>El corazon Delator</h1>
+      <div class="pestana_principal">
+       
+        <h1 id="tituloCorazon">El corazon Delator</h1>
         
-        <center>
-        <img src="corazonDelator.png" width="300px" height="300">
-        </center>
-        <h1>Reseña</h1>
+
+        <table class="imagenC">
+                <tbody>
+              
+                  <tr>
+                      <td>
+                          <img src="corazonDelator.png" class="imgpoe">
+                      </td>
+                      <td> 
+                          <img src="441459676350_XXL.jpg" class="imgpoe">
+                    </td>
+                  </tr>
+                
+                </tbody>    
+              </table>
+        
+        <h1 id="resenaC">Reseña</h1>
+        
+        <div id="texto">
         <p>
-            El relato comienza con la confesión del protagonista, que admite ser muy nervioso, pero niega estar loco. Así comienza a hablar de la víctima,
+            <span id=letraC>E</span>l relato comienza con la confesión del protagonista, que admite ser muy nervioso, pero niega estar loco. Así comienza a hablar de la víctima,
             a la que llama “el viejo”. No lo odiaba, ni tenía nada contra él, ni discutió con él. Sencillamente, el viejo tenía un ojo cubierto de un velo
             azul pálido, semejante al de un buitre, y cuya mirada le desagradaba. El protagonista deseaba matar al viejo para librarse la mirada de ese ojo.
             Es de ese modo como el hombre detalla de modo minucioso cómo planificó los detalles del crimen, y cómo iba todas las noches de manera muy 
@@ -47,19 +61,14 @@
             que los policías podían oírlo, pero que se hacían los desentendidos para burlarse de él. Al final, se derrumba, admite el crimen 
             y dice dónde estaba el cuerpo, porque estaba convencido de que el rumor se debía al corazón del viejo, que aún latía debajo de las tablas.
         </p>
+        </div>
+    </div> 
+    
+    <div class="dis">
+     <!--disqus-->
 
-    </div>  
-      <div id="disqus_thread"></div>
+       <div id="disqus_thread"></div>
       <script>  
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
       (function() { // DON'T EDIT BELOW THIS LINE
       var d = document, s = d.createElement('script');
       s.src = 'https://barraganperezduxabner-github-io.disqus.com/embed.js';
@@ -68,6 +77,7 @@
       })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                                
+        
+    </div>                      
       </body>
  </html>
